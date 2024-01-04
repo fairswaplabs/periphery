@@ -22,7 +22,7 @@ library FairswapLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'd42facd7824b68b252dd0f0bffd67428e817c5f8b460562039bf7db951648330' // init code hash
+                hex'ebaf84cd5b0f1947f80887235e748c2890c592a5d34c60e814536ae39f5826e2' // init code hash
             ))));
     }
 

@@ -87,6 +87,10 @@ contract FairswapRouter is IFairswapRouter, FairswapRouter02, Ownable {
         startClaimTime = _startClaimTime;
     }
 
+    function setUSDC(address _USDC) external onlyOwner{
+        USDC = _USDC;
+    }
+
     function setReawrdToken(address _rewardToken) external onlyOwner{
         rewardToken = _rewardToken;
     }
